@@ -13,6 +13,8 @@ Striving to create a bitmap font for **inherited glyphs** that can **free to use
 ## Coverage
 Planning to support the CJK Unified Ideographs Basic Block and Extension A.
 
+Current Progress: 347/27496
+
 ## License
 This project uses the SIL Open Font License 1.1.
 
