@@ -1,4 +1,4 @@
-[中文](#爾雅明朝)|[EN](./README-EN.MD)
+**繁體中文** | [English](./README-EN.MD)
 
 # 爾雅明朝
 

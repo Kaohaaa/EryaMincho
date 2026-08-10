@@ -1,4 +1,4 @@
-[中文](./README.MD)|[EN](./README-EN.MD)
+[繁體中文](./README.MD) | **English**
 
 # _Erya Mincho_
 
@@ -8,7 +8,7 @@
 **_Erya Mincho_**, a 15×15 bitmap font with a Mincho style, which is mainly designed and drawn by Koolhaas, is still in the development stage.
 
 ## Concept
-Striving to create a bitmap font for **inherited glyphs** that can **free to use**, **makes sense** according to character logic, and **looks the best**!
+Striving to create a bitmap font for **Inherited Glyphs** that can **free to use**, **reasonable** according to character logic, and **looks perfect**!
 
 ## Coverage
 Planning to support the CJK Unified Ideographs Basic Block and Extension A.
