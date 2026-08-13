@@ -153,7 +153,7 @@ def main():
 
     # Output directories
     image_dir = "../../images"
-    count_dir = "count"
+    count_dir = "../count"
 
     os.makedirs(image_dir, exist_ok=True)
     os.makedirs(count_dir, exist_ok=True)
