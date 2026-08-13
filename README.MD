@@ -16,9 +16,9 @@
 ### 當前進度
 |區塊|進度|
 |---|---|
-|總進度|![total](./source/count/total_progress.png)|
-|CJK 基本區|![basic](./source/count/basic_progress.png)|
-|CJK 擴展 A|![total](./source/count/ext_a_progress.png)|
+|總進度|![total](./images/total_progress.png)|
+|CJK 基本區|![basic](./images/basic_progress.png)|
+|CJK 擴展 A|![total](./images/ext_a_progress.png)|
 
 ## 許可證
 本項目采用 SIL Open Font License 1.1。

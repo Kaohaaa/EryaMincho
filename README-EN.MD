@@ -16,9 +16,9 @@ Planning to support the CJK Unified Ideographs Basic Block and Extension A.
 ### Current Progress
 |Block|Progress|
 |---|---|
-|Total|![total](./source/count/total_progress.png)|
-|CJK Basic|![basic](./source/count/basic_progress.png)|
-|CJK Extension A|![total](./source/count/ext_a_progress.png)|
+|Total|![total](./images/total_progress.png)|
+|CJK Basic|![basic](./images/basic_progress.png)|
+|CJK Extension A|![total](./images/ext_a_progress.png)|
 
 ## License
 This project uses the SIL Open Font License 1.1.
