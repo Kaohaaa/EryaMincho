@@ -5,6 +5,7 @@ on:
     paths:
       - "source/*.hex"
       - "tools/count.py"
+  workflow_dispatch:
 
 permissions:
   contents: write
