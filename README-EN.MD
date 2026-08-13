@@ -2,13 +2,13 @@
 
 # _Erya Mincho_
 
-![image](./images/preview.png) 
+![image](./images/preview.png)
 
 ## Description
-**_Erya Mincho_**, a 15×15 bitmap font with a Mincho style, which is mainly designed and drawn by Koolhaas, is still in the development stage.
+**_Erya Mincho_** is a 15×15 bitmap Mincho font, mainly designed and drawn by Koolhaas. It is currently under development.
 
 ## Concept
-Striving to create a bitmap font for **Inherited Glyphs** that can **free to use**, **reasonable** according to character logic, and **looks perfect**!
+Striving to create an **Inherited Glyphs** bitmap font that is **free to use**, **faithful** to glyph forms, and **visually refined**!
 
 ## Coverage
 Planning to support the CJK Unified Ideographs Basic Block and Extension A.
@@ -16,16 +16,16 @@ Planning to support the CJK Unified Ideographs Basic Block and Extension A.
 ### Current Progress
 |Block|Progress|
 |---|---|
-|Total|![total](./images/total_progress.png)|
-|CJK Basic|![basic](./images/basic_progress.png)|
-|CJK Extension A|![total](./images/ext_a_progress.png)|
+|CJK Basic|<img src="./images/basic_progress.png" alt="basic">|
+|CJK Extension A|<img src="./images/ext_a_progress.png" alt="ext_a">|
+|Total|<img src="./images/total_progress.png" alt="total">|
 
 ## License
-This project uses the SIL Open Font License 1.1.
+This project is licensed under the **SIL Open Font License 1.1**.
 
-Before August 8, 2026, this project used CC BY-ND 4.0 (that is, the versions before the `old-license` tag). To make it easier for others to contribute and modify this font, the license was changed on August 8, 2026.
+Before August 8, 2026, it was licensed under CC BY-ND 4.0 (versions before the `old-license` tag). The license was changed to facilitate contributions and modifications on August 8, 2026.
 
-The old versions are bound by the original license.
+Older versions remain under the original license.
 
 ## Sponsor
 [![Sponsor](https://img.shields.io/badge/Koolhaas-gray?style=flat&logo=afdian&logoColor=white&label=Afdian&labelColor=946CE6)](https://ifdian.net/a/Koolhaas)
