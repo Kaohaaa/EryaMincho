@@ -1,0 +1,50 @@
+name: Update CJK Coverage
+
+on:
+  push:
+    paths:
+      - "source/*.hex"
+      - "tools/count.py"
+
+permissions:
+  contents: write
+
+
+jobs:
+  count:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+
+      - name: Install dependencies
+        run: |
+          pip install Pillow
+
+
+      - name: Generate coverage files
+        run: |
+          python tools/count.py source/EryaMincho.hex
+
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add image tools
+
+          git diff --cached --quiet || \
+          git commit -m "Update CJK coverage report"
+
+          git push
