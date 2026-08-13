@@ -152,8 +152,8 @@ def main():
         sys.exit(1)
 
     # Output directories
-    image_dir = "../../images"
-    count_dir = "../count"
+    image_dir = "../images"
+    count_dir = "../tools"
 
     os.makedirs(image_dir, exist_ok=True)
     os.makedirs(count_dir, exist_ok=True)
