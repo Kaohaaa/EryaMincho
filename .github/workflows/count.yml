@@ -42,7 +42,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add image tools
+          git add images tools
 
           git diff --cached --quiet || \
           git commit -m "Update CJK coverage report"
