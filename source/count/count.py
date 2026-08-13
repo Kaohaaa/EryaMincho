@@ -122,13 +122,19 @@ def save_missing_list(basic_chars, ext_a_chars, output_path):
 
     with open(output_path, "w", encoding="utf-8") as file:
 
-        # Basic
-        for codepoint in range(CJK_BASIC_START, CJK_BASIC_END + 1):
+        # CJK Unified Ideographs
+        for codepoint in range(
+            CJK_BASIC_START,
+            CJK_BASIC_END + 1
+        ):
             if codepoint not in existing:
                 file.write(f"U+{codepoint:04X}\n")
 
-        # Extension A
-        for codepoint in range(CJK_EXT_A_START, CJK_EXT_A_END + 1):
+        # CJK Unified Ideographs Extension A
+        for codepoint in range(
+            CJK_EXT_A_START,
+            CJK_EXT_A_END + 1
+        ):
             if codepoint not in existing:
                 file.write(f"U+{codepoint:04X}\n")
 
@@ -136,7 +142,7 @@ def save_missing_list(basic_chars, ext_a_chars, output_path):
 def main():
 
     if len(sys.argv) < 2:
-        print("Usage: python count.py <font.hex> [output_directory]")
+        print("Usage: python count.py <font.hex>")
         sys.exit(1)
 
     hex_path = sys.argv[1]
@@ -145,13 +151,14 @@ def main():
         print(f"Error: file not found: {hex_path}")
         sys.exit(1)
 
-    if len(sys.argv) >= 3:
-        output_dir = sys.argv[2]
-    else:
-        output_dir = "."
+    # Output directories
+    image_dir = "../../images"
+    count_dir = "count"
 
-    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(image_dir, exist_ok=True)
+    os.makedirs(count_dir, exist_ok=True)
 
+    # Read and count characters
     basic_chars, ext_a_chars = count_characters(hex_path)
 
     basic_count = len(basic_chars)
@@ -166,26 +173,38 @@ def main():
     save_progress_bar(
         basic_count,
         TOTAL_BASIC,
-        os.path.join(output_dir, "basic_progress.png")
+        os.path.join(
+            image_dir,
+            "basic_progress.png"
+        )
     )
 
     save_progress_bar(
         ext_a_count,
         TOTAL_EXT_A,
-        os.path.join(output_dir, "ext_a_progress.png")
+        os.path.join(
+            image_dir,
+            "ext_a_progress.png"
+        )
     )
 
     save_progress_bar(
         total_count,
         TOTAL_CJK,
-        os.path.join(output_dir, "total_progress.png")
+        os.path.join(
+            image_dir,
+            "total_progress.png"
+        )
     )
 
     # Save missing character list
     save_missing_list(
         basic_chars,
         ext_a_chars,
-        os.path.join(output_dir, "missing.txt")
+        os.path.join(
+            count_dir,
+            "missing.txt"
+        )
     )
 
     # Print report
@@ -212,8 +231,15 @@ def main():
     )
 
     print()
-    print(f"Progress bars saved to: {os.path.abspath(output_dir)}")
-    print(f"Missing character list: {os.path.abspath(os.path.join(output_dir, 'missing.txt'))}")
+    print(
+        "Progress bars saved to: "
+        f"{os.path.abspath(image_dir)}"
+    )
+
+    print(
+        "Missing character list saved to: "
+        f"{os.path.abspath(os.path.join(count_dir, 'missing.txt'))}"
+    )
 
 
 if __name__ == "__main__":
