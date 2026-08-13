@@ -13,7 +13,12 @@ Striving to create a bitmap font for **Inherited Glyphs** that can **free to use
 ## Coverage
 Planning to support the CJK Unified Ideographs Basic Block and Extension A.
 
-Current Progress: 409/27496 (Pitifully low 😂)
+### Current Progress
+|Block|Progress|
+|---|---|
+|Total|![total](./source/count/total_progress.png)|
+|CJK Basic|![basic](./source/count/basic_progress.png)|
+|CJK Extension A|![total](./source/count/ext_a_progress.png)|
 
 ## License
 This project uses the SIL Open Font License 1.1.
@@ -23,4 +28,4 @@ Before August 8, 2026, this project used CC BY-ND 4.0 (that is, the versions bef
 The old versions are bound by the original license.
 
 ## Sponsor
-[![Sponsor](https://img.shields.io/badge/Koolhaas-gray?style=flat&logo=afdian&logoColor=white&label=ifdian&labelColor=946CE6)](https://ifdian.net/a/Koolhaas)
+[![Sponsor](https://img.shields.io/badge/Koolhaas-gray?style=flat&logo=afdian&logoColor=white&label=Afdian&labelColor=946CE6)](https://ifdian.net/a/Koolhaas)

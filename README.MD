@@ -11,9 +11,14 @@
 爭做**人人可用**、**符合字理**、同时**最美觀**的**傳承字形**點陣字體！
 
 ## 覆蓋
-計劃支持 CJK 統一漢字基本區和拓展 A 區。
+計劃支持 CJK 統一漢字基本區和擴展 A 區。
 
-當前進度：409/27496（低的可憐😂）
+### 當前進度
+|區塊|進度|
+|---|---|
+|總進度|![total](./source/count/total_progress.png)|
+|CJK 基本區|![basic](./source/count/basic_progress.png)|
+|CJK 擴展 A|![total](./source/count/ext_a_progress.png)|
 
 ## 許可證
 本項目采用 SIL Open Font License 1.1。
@@ -23,4 +28,4 @@
 舊版本受原許可證約束。
 
 ## 贊助
-[![Sponsor](https://img.shields.io/badge/%E8%80%83%E5%93%88-gray?style=flat&logo=afdian&logoColor=white&label=%E7%88%B1%E5%8F%91%E7%94%B5&labelColor=946CE6)](https://ifdian.net/a/Koolhaas)
+[![Sponsor](https://img.shields.io/badge/%E8%80%83%E5%93%88-gray?style=flat&logo=afdian&logoColor=white&label=%E6%84%9B%E7%99%BC%E9%9B%BB&labelColor=946CE6)](https://ifdian.net/a/Koolhaas)
