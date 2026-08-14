@@ -2,7 +2,11 @@
 
 # _Erya Mincho_
 
-![image](./images/preview.png)
+<div>
+<img src="./images/EryaTest-1.png" width="30%">
+<img src="./images/EryaTest-2.png" width="30%">
+<img src="./images/EryaTest-3.png" width="30%">
+</div>
 
 ## Description
 **_Erya Mincho_** is a 15×15 bitmap Mincho font, mainly designed and drawn by Koolhaas. It is currently under development.

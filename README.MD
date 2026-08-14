@@ -2,7 +2,11 @@
 
 # 爾雅明朝
 
-![image](./images/preview.png)
+<div>
+<img src="./images/EryaTest-1.png" width="30%">
+<img src="./images/EryaTest-2.png" width="30%">
+<img src="./images/EryaTest-3.png" width="30%">
+</div>
 
 ## 概述
 「**爾雅明朝**」是一款 15×15 點陣明朝體，主要由考哈設計並繪製。現仍處於開發階段。
