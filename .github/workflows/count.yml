@@ -20,6 +20,8 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v6
+        with: 
+          ref: ${{ github.ref_name }}
 
 
       - name: Set up Python
@@ -48,4 +50,4 @@ jobs:
           git diff --cached --quiet || \
           git commit -m "Update CJK coverage report"
 
-          git push
+          git push origin HEAD:${{ github.ref_name }}
