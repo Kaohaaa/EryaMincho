@@ -2,10 +2,10 @@
 
 # 爾雅明朝
 
-<div>
-<img src="./images/preview/preview-1.png" width="30%">
-<img src="./images/preview/preview-2.png" width="30%">
-<img src="./images/preview/preview-3.png" width="30%">
+<div style="display:flex;justify-content: center">
+<img src="./images/preview/preview-1.png" width="32%">
+<img src="./images/preview/preview-2.png" width="32%">
+<img src="./images/preview/preview-3.png" width="32%">
 </div>
 
 ## 概述
@@ -20,9 +20,9 @@
 ### 當前進度
 |區塊|進度|
 |---|---|
-|CJK 基本區|<img src="./images/basic_progress.png" alt="basic">|
-|CJK 擴展 A|<img src="./images/ext_a_progress.png" alt="ext_a">|
-|總計|<img src="./images/total_progress.png" alt="total">|
+|CJK 基本區|<img src="./images/progress_bars/basic_progress.png" alt="basic">|
+|CJK 擴展 A|<img src="./images/progress_bars/ext_a_progress.png" alt="ext_a">|
+|總計|<img src="./images/progress_bars/total_progress.png" alt="total">|
 
 ## 許可證
 本項目采用 **SIL Open Font License 1.1**。

@@ -2,10 +2,10 @@
 
 # _Erya Mincho_
 
-<div>
-<img src="./images/preview/preview-1.png" width="30%">
-<img src="./images/preview/preview-2.png" width="30%">
-<img src="./images/preview/preview-3.png" width="30%">
+<div style="display:flex;justify-content: center">
+<img src="./images/preview/preview-1.png" width="32%">
+<img src="./images/preview/preview-2.png" width="32%">
+<img src="./images/preview/preview-3.png" width="32%">
 </div>
 
 ## Description
@@ -20,9 +20,9 @@ Planning to support the CJK Unified Ideographs Basic Block and Extension A.
 ### Current Progress
 |Block|Progress|
 |---|---|
-|CJK Basic|<img src="./images/basic_progress.png" alt="basic">|
-|CJK Extension A|<img src="./images/ext_a_progress.png" alt="ext_a">|
-|Total|<img src="./images/total_progress.png" alt="total">|
+|CJK Basic|<img src="./images/progress_bars/basic_progress.png" alt="basic">|
+|CJK Extension A|<img src="./images/progress_bars/ext_a_progress.png" alt="ext_a">|
+|Total|<img src="./images/progress_bars/total_progress.png" alt="total">|
 
 ## License
 This project is licensed under the **SIL Open Font License 1.1**.
