@@ -6,5 +6,5 @@ When everything is ready, use these commands:
 ```
 >>> cd EryaMincho
 
->>> tools/build/hex2otf hex=source/EryaMincho.hex out=source/EryaMincho.otf format=truetype
+>>> tools/build/hex2otf hex=source/EryaMincho.hex out=precompiled/EryaMincho.otf format=truetype
 ```
