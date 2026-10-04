@@ -3,9 +3,9 @@
 # 爾雅明朝
 
 <div>
-<img src="./images/EryaTest-1.png" width="30%">
-<img src="./images/EryaTest-2.png" width="30%">
-<img src="./images/EryaTest-3.png" width="30%">
+<img src="./images/preview/preview-1.png" width="30%">
+<img src="./images/preview/preview-2.png" width="30%">
+<img src="./images/preview/preview-3.png" width="30%">
 </div>
 
 ## 概述

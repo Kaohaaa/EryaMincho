@@ -37,7 +37,7 @@ jobs:
 
       - name: Generate coverage files
         run: |
-          python tools/count.py source/EryaMincho.hex
+          python tools/progress_bars_gen/count.py source/EryaMincho.hex
 
 
       - name: Commit generated files
