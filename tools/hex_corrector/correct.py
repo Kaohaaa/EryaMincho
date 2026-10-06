@@ -42,12 +42,15 @@ def fix_hex_file(input_file, output_file):
 
 
 def main():
-    if len(sys.argv) != 3:
-        print(f"Usage: {sys.argv[0]} <input_file> <output_file>")
+    if len(sys.argv) == 1:
+        input_file = "source/EryaMincho.hex"
+        output_file = "source/corrected.hex"
+    elif len(sys.argv) == 3:
+        input_file = sys.argv[1]
+        output_file = sys.argv[2]
+    else:
+        print(f"Usage: {sys.argv[0]} [<input_file> <output_file>]")
         sys.exit(1)
-
-    input_file = sys.argv[1]
-    output_file = sys.argv[2]
 
     try:
         fix_hex_file(input_file, output_file)
@@ -61,4 +64,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
