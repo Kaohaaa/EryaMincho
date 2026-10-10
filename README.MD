@@ -2,14 +2,17 @@
 
 # 爾雅明朝
 
-<div style="display:flex;justify-content: center">
-<img src="./images/preview/preview-1.png" width="32%">
-<img src="./images/preview/preview-2.png" width="32%">
-<img src="./images/preview/preview-3.png" width="32%">
+<div>
+<img src="./images/preview/zh-1.png" width="32%">
+<img src="./images/preview/zh-2.png" width="32%">
+<img src="./images/preview/zh-3.png" width="32%">
+<img src="./images/preview/en.png" width="32%">
+<img src="./images/preview/el.png" width="32%">
+<img src="./images/preview/ru.png" width="32%">
 </div>
 
 ## 概述
-「**爾雅明朝**」是一款 15×15 點陣明朝體，主要由考哈設計並繪製。現仍處於開發階段。
+「**爾雅明朝**」是一款 16×16 點陣明朝體，主要由考哈設計並繪製。現仍處於開發階段。
 
 ## 設計理念
 爭做一款人人**免費使用**、**符合字理**、同时**最美觀**的**傳承字形**點陣字體！

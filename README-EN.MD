@@ -2,14 +2,17 @@
 
 # _Erya Mincho_
 
-<div style="display:flex;justify-content: center">
-<img src="./images/preview/preview-1.png" width="32%">
-<img src="./images/preview/preview-2.png" width="32%">
-<img src="./images/preview/preview-3.png" width="32%">
+<div>
+<img src="./images/preview/zh-1.png" width="32%">
+<img src="./images/preview/zh-2.png" width="32%">
+<img src="./images/preview/zh-3.png" width="32%">
+<img src="./images/preview/en.png" width="32%">
+<img src="./images/preview/el.png" width="32%">
+<img src="./images/preview/ru.png" width="32%">
 </div>
 
 ## Description
-**_Erya Mincho_** is a 15×15 bitmap Mincho font, mainly designed and drawn by Koolhaas. It is currently under development.
+**_Erya Mincho_** is a 16×16 bitmap Mincho font, mainly designed and drawn by Koolhaas. It is currently under development.
 
 ## Concept
 Striving to create an **Inherited Glyphs** bitmap font that is **free to use**, **faithful** to glyph forms, and **visually refined**!
