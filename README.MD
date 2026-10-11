@@ -5,10 +5,10 @@
 <div>
 <img src="./images/preview/zh-1.png" width="32%">
 <img src="./images/preview/zh-2.png" width="32%">
-<img src="./images/preview/zh-3.png" width="32%">
 <img src="./images/preview/en.png" width="32%">
 <img src="./images/preview/el.png" width="32%">
 <img src="./images/preview/ru.png" width="32%">
+<img src="./images/preview/he.png" width="32%">
 </div>
 
 ## 概述
