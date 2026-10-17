@@ -1,0 +1,53 @@
+{
+  "familyName": {
+    "en": "Erya Mincho",
+    "zh": "爾雅明朝",
+    "zh-tw": "爾雅明朝",
+    "ja": "爾雅明朝"
+  },
+  "styleName": {
+    "en": "Regular",
+    "zh": "Regular",
+    "zh-tw": "Regular",
+    "ja": "Regular"
+  },
+  "fullName": {
+    "en": "Erya Mincho Regular",
+    "zh": "爾雅明朝 Regular",
+    "zh-tw": "爾雅明朝 Regular",
+    "ja": "爾雅明朝 Regular"
+  },
+  "psName": "EryaMincho-Regular",
+  "vendorID": "KLHS",
+  "version": "Alpha 0.26.10",
+  "uniqueFontIdentifier": "EryaMincho Regular; Alpha 0.26.10",
+  "copyright": {
+    "en": "Copyright © 2026 Koolhaas",
+    "zh": "版权所有 © 2026 考哈",
+    "zh-tw": "版權所有 © 2026 考哈"
+  },
+  "trademark": null,
+  "designer": {
+    "en": "Koolhaas",
+    "zh": "考哈"
+  },
+  "manufacturer": {
+    "en": "Koolhaas Type",
+    "zh": "考哈字坊"
+  },
+  "description": {
+    "en": "A 16×16 bitmap font with a Mincho style.",
+    "zh": "一款 16×16 点阵明朝体",
+    "zh-tw": "一款 16×16 點陣明朝體"
+  },
+  "sampleText": {
+    "en": "The quick brown fox jumps over the lazy dog.",
+    "zh": "當這世界已經準備將我遺棄"
+  },
+  "licenseDescription": {
+    "en": "SIL Open Font License Version 1.1"
+  },
+  "licenseInfoURL": "https://openfontlicense.org/",
+  "vendorURL": "https://github.com/Kaohaaa/EryaMincho",
+  "designerURL": "https://github.com/Kaohaaa"
+}

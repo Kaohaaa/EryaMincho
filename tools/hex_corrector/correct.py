@@ -1,8 +1,4 @@
-
-#!/usr/bin/env python3
-
 import sys
-
 
 def fix_hex_file(input_file, output_file):
     with open(input_file, "r", encoding="ascii", newline="") as f:
