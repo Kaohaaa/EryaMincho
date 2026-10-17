@@ -1,0 +1,67 @@
+{
+    "providers": [
+        {
+            "type": "unihex",
+            "hex_file": "minecraft:font/eryamincho.zip",
+            "size_overrides": [
+                {
+                    "__ranges": [
+                        "CJK Symbols and Punctuation"
+                    ],
+                    "from": "\u3000",
+                    "to": "\u303f",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                   "__ranges": [
+                        "Hiragana"
+                    ],
+                    "from": "\u3040",
+                    "to": "\u309f",
+                    "left": 0,
+                    "right": 15 
+                },
+                {
+                   "__ranges": [
+                        "Katakana"
+                    ],
+                    "from": "\u30a0",
+                    "to": "\u30ff",
+                    "left": 0,
+                    "right": 15 
+                },
+                {
+                    "__ranges": [
+                        "CJK Unified Ideographs"
+                    ],
+                    "from": "\u4e00",
+                    "to": "\u9fff",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "CJK Compatibility Ideographs"
+                    ],
+                    "from": "\uf900",
+                    "to": "\ufaff",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Halfwidth and Fullwidth Forms"
+                    ],
+                    "from": "\uff00",
+                    "to": "\uffef",
+                    "left": 0,
+                    "right": 15
+                }
+            ],
+            "filter": {
+                "jp": true
+            }
+        }
+    ]
+}

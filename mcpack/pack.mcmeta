@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "description": {
+            "translate": "eryamincho.pack_description",
+            "fallback": "§7Activate it in Font Settings.\nMade by §6Koolhaas"
+        },
+        "min_format": 75,
+        "max_format": 99
+    }
+}
