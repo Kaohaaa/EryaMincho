@@ -1,7 +1,7 @@
 {
   "familyName": {
     "en": "Erya Mincho",
-    "zh": "爾雅明朝",
+    "zh": "尔雅明朝",
     "zh-tw": "爾雅明朝",
     "ja": "爾雅明朝"
   },
@@ -13,7 +13,7 @@
   },
   "fullName": {
     "en": "Erya Mincho Regular",
-    "zh": "爾雅明朝 Regular",
+    "zh": "尔雅明朝 Regular",
     "zh-tw": "爾雅明朝 Regular",
     "ja": "爾雅明朝 Regular"
   },
@@ -29,11 +29,13 @@
   "trademark": null,
   "designer": {
     "en": "Koolhaas",
-    "zh": "考哈"
+    "zh": "考哈",
+    "zh-tw": "考哈"
   },
   "manufacturer": {
     "en": "Koolhaas Type",
-    "zh": "考哈字坊"
+    "zh": "考哈字坊",
+    "zh-tw": "考哈字坊"
   },
   "description": {
     "en": "A 16×16 bitmap font with a Mincho style.",
@@ -42,7 +44,8 @@
   },
   "sampleText": {
     "en": "The quick brown fox jumps over the lazy dog.",
-    "zh": "當這世界已經準備將我遺棄"
+    "zh": "當這世界已經準備將我遺棄",
+    "zh-tw": "當這世界已經準備將我遺棄"
   },
   "licenseDescription": {
     "en": "SIL Open Font License Version 1.1"

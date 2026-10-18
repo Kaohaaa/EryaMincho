@@ -8,7 +8,7 @@ FONT_DIR = ROOT / "mcpack" / "assets" / "minecraft" / "font"
 FONT_ARCHIVE = FONT_DIR / "eryamincho.zip"
 MCPACK_DIR = ROOT / "mcpack"
 OUTPUT_DIR = ROOT / "precompiled"
-RESOURCE_PACK_ARCHIVE = OUTPUT_DIR / "Erya Mincho Resource Pack.zip"
+RESOURCE_PACK_ARCHIVE = OUTPUT_DIR / "EryaMincho-ResourcePack.zip"
 
 
 def create_font_archive():
