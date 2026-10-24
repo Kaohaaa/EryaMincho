@@ -304,6 +304,13 @@ def build_font(
         raise ValueError("FONTBOUNDINGBOX height must be positive.")
     scale = upm / cell_height
 
+    # BDF .notdef glyphs commonly use ENCODING -1, so they must be
+    # collected by name rather than by Unicode code point.
+    notdef_src = next(
+        (glyph for glyph in source_glyphs if glyph["source_name"] == ".notdef"),
+        None,
+    )
+
     by_codepoint: dict[int, dict[str, Any]] = {}
     for glyph in source_glyphs:
         cp = glyph["encoding"]
@@ -326,9 +333,24 @@ def build_font(
     glyphs: dict[str, Any] = {}
     metrics: dict[str, tuple[int, int]] = {}
 
-    empty_pen = TTGlyphPen(None)
-    glyphs[".notdef"] = empty_pen.glyph()
-    metrics[".notdef"] = (upm, 0)
+    if notdef_src is None:
+        # Keep a valid empty fallback if the BDF has no explicit .notdef glyph.
+        glyphs[".notdef"] = TTGlyphPen(None).glyph()
+        metrics[".notdef"] = (upm, 0)
+    else:
+        # Convert the explicit .notdef bitmap into contours just like any
+        # other glyph, but do not add it to cmap because it has no code point.
+        notdef_pen = TTGlyphPen(None)
+        for x0, y0, x1, y1 in pixel_runs(notdef_src):
+            add_rect(
+                notdef_pen,
+                round(x0 * scale), round(y0 * scale),
+                round(x1 * scale), round(y1 * scale),
+            )
+        glyphs[".notdef"] = notdef_pen.glyph()
+        advance = round(notdef_src["dwidth"][0] * scale)
+        lsb = round(notdef_src["bbx"][2] * scale)
+        metrics[".notdef"] = (advance, lsb)
 
     for cp, src in sorted(by_codepoint.items()):
         name = glyph_name(cp)
