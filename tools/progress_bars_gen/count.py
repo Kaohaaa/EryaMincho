@@ -122,18 +122,18 @@ def save_missing_list(basic_chars, ext_a_chars, output_path):
 
     with open(output_path, "w", encoding="utf-8") as file:
 
-        # CJK Unified Ideographs
-        for codepoint in range(
-            CJK_BASIC_START,
-            CJK_BASIC_END + 1
-        ):
-            if codepoint not in existing:
-                file.write(f"U+{codepoint:04X}\n")
-
         # CJK Unified Ideographs Extension A
         for codepoint in range(
             CJK_EXT_A_START,
             CJK_EXT_A_END + 1
+        ):
+            if codepoint not in existing:
+                file.write(f"U+{codepoint:04X}\n")
+
+        # CJK Unified Ideographs (Basic)
+        for codepoint in range(
+            CJK_BASIC_START,
+            CJK_BASIC_END + 1
         ):
             if codepoint not in existing:
                 file.write(f"U+{codepoint:04X}\n")
