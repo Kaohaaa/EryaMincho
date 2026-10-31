@@ -2,15 +2,6 @@
 
 # _Erya Mincho_
 
-<div>
-<img src="./images/preview/zh-1.png" width="32%">
-<img src="./images/preview/zh-2.png" width="32%">
-<img src="./images/preview/en.png" width="32%">
-<img src="./images/preview/el.png" width="32%">
-<img src="./images/preview/ru.png" width="32%">
-<img src="./images/preview/he.png" width="32%">
-</div>
-
 ## Description
 **_Erya Mincho_** is a 16×16 bitmap Mincho font, mainly designed and drawn by Koolhaas. It is currently under development.
 
@@ -18,14 +9,35 @@
 Striving to create an **Inherited Glyphs** bitmap font that is **free to use**, **faithful** to glyph forms, and **visually refined**!
 
 ## Coverage
-Planning to support the CJK Unified Ideographs Basic Block and Extension A.
 
-### Current Progress
+### Chinese
+<img src="./images/preview/zh-1.png" width=24%>
+<img src="./images/preview/zh-2.png" width=24%>
+<img src="./images/preview/zh-3.png" width=24%>
+
+#### Current Progress
 |Block|Progress|
 |---|---|
-|CJK Basic|<img src="./images/progress_bars/basic_progress.png" alt="basic">|
-|CJK Extension A|<img src="./images/progress_bars/ext_a_progress.png" alt="ext_a">|
+|CJK Unified Ideographs|<img src="./images/progress_bars/basic_progress.png" alt="basic">|
+|CJK Unified Ideographs Extension A|<img src="./images/progress_bars/ext_a_progress.png" alt="ext_a">|
 |Total|<img src="./images/progress_bars/total_progress.png" alt="total">|
+
+Planning to support the CJK Unified Ideographs Basic Block and Extension A.
+
+---
+
+### Hiragana & Katakana
+<img src="./images/preview/jp-hiragana.png" width="24%">
+<img src="./images/preview/jp-Katakana.png" width="24%">
+
+### Hangul Syllables
+<img src="./images/preview/kr.png" width="24%">
+
+### Western Scripts
+<img src="./images/preview/en.png" width="24%">
+<img src="./images/preview/el.png" width="24%">
+<img src="./images/preview/ru.png" width="24%">
+<img src="./images/preview/he.png" width="24%">
 
 ## License
 This project is licensed under the **SIL Open Font License 1.1**.
