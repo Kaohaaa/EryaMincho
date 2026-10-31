@@ -11,9 +11,9 @@
 ## 覆蓋範圍
 
 ### 中文
-<img src="./images/preview/zh-1.png" width=24%>
-<img src="./images/preview/zh-2.png" width=24%>
-<img src="./images/preview/zh-3.png" width=24%>
+<img src="./images/preview/zh-1.png" width=20%>
+<img src="./images/preview/zh-2.png" width=20%>
+<img src="./images/preview/zh-3.png" width=20%>
 
 #### 當前進度
 |區塊|進度|
@@ -31,13 +31,13 @@
 <img src="./images/preview/jp-Katakana.png" width="24%">
 
 ### 諺文音節
-<img src="./images/preview/kr.png" width="24%">
+<img src="./images/preview/kr.png" width="20%">
 
 ### 西文
-<img src="./images/preview/en.png" width="24%">
-<img src="./images/preview/el.png" width="24%">
-<img src="./images/preview/ru.png" width="24%">
-<img src="./images/preview/he.png" width="24%">
+<img src="./images/preview/en.png" width="20%">
+<img src="./images/preview/el.png" width="20%">
+<img src="./images/preview/ru.png" width="20%">
+<img src="./images/preview/he.png" width="20%">
 
 ## 許可證
 本項目采用 **SIL Open Font License 1.1**。

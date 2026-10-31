@@ -11,9 +11,9 @@ Striving to create an **Inherited Glyphs** bitmap font that is **free to use**, 
 ## Coverage
 
 ### Chinese
-<img src="./images/preview/zh-1.png" width=24%>
-<img src="./images/preview/zh-2.png" width=24%>
-<img src="./images/preview/zh-3.png" width=24%>
+<img src="./images/preview/zh-1.png" width=20%>
+<img src="./images/preview/zh-2.png" width=20%>
+<img src="./images/preview/zh-3.png" width=20%>
 
 #### Current Progress
 |Block|Progress|
@@ -31,13 +31,13 @@ Planning to support the CJK Unified Ideographs Basic Block and Extension A.
 <img src="./images/preview/jp-Katakana.png" width="24%">
 
 ### Hangul Syllables
-<img src="./images/preview/kr.png" width="24%">
+<img src="./images/preview/kr.png" width="20%">
 
 ### Western Scripts
-<img src="./images/preview/en.png" width="24%">
-<img src="./images/preview/el.png" width="24%">
-<img src="./images/preview/ru.png" width="24%">
-<img src="./images/preview/he.png" width="24%">
+<img src="./images/preview/en.png" width="20%">
+<img src="./images/preview/el.png" width="20%">
+<img src="./images/preview/ru.png" width="20%">
+<img src="./images/preview/he.png" width="20%">
 
 ## License
 This project is licensed under the **SIL Open Font License 1.1**.
