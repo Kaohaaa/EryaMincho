@@ -37,8 +37,7 @@
 
 ### 諺文音節
 > 諺文字形取自由 **HanYang I&C Co.** 設計的明朝體字型 **Batang**。
-<br>
-來源爲 [Google Fonts 官方 GitHub 倉庫](https://github.com/googlefonts/batang)以 **SIL Open Font License 1.1** 授權發行的版本。
+> 來源爲 [Google Fonts 官方 GitHub 倉庫](https://github.com/googlefonts/batang)以 **SIL Open Font License 1.1** 授權發行的版本。
 
 <img src="./images/preview/kr.png" width="24%">
 

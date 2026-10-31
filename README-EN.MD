@@ -37,8 +37,7 @@ Planning to support the CJK Unified Ideographs Basic Block and Extension A.
 
 ### Hangul Syllables
 > The Hangul Glyphs are derived from **_Batang_**, a serif typeface designed by **HanYang I&C Co.**
-<br>
-The source is the version released under the **SIL Open Font License 1.1** from the [official Google Fonts GitHub repository](https://github.com/googlefonts/batang).
+> The source is the version released under the **SIL Open Font License 1.1** from the [official Google Fonts GitHub repository](https://github.com/googlefonts/batang).
 
 <img src="./images/preview/kr.png" width="24%">
 
