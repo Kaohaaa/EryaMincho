@@ -11,11 +11,14 @@
 ## 覆蓋範圍
 
 ### 中文
-<img src="./images/preview/zh-1.png" width=20%>
-<img src="./images/preview/zh-2.png" width=20%>
-<img src="./images/preview/zh-3.png" width=20%>
+<p>
+    <img src="./images/preview/zh-1.png" width=24%>
+    <img src="./images/preview/zh-2.png" width=24%>
+    <img src="./images/preview/zh-3.png" width=24%>
+</p>
 
 #### 當前進度
+
 |區塊|進度|
 |---|---|
 |中日韓統一表意文字|<img src="./images/progress_bars/basic_progress.png" alt="basic">|
@@ -27,17 +30,21 @@
 ---
 
 ### 平假名 & 片假名
-<img src="./images/preview/jp-hiragana.png" width="24%">
-<img src="./images/preview/jp-Katakana.png" width="24%">
+<p>
+    <img src="./images/preview/jp-hiragana.png" width=24%>
+    <img src="./images/preview/jp-katakana.png" width=24%>
+</p>
 
 ### 諺文音節
-<img src="./images/preview/kr.png" width="20%">
+<img src="./images/preview/kr.png" width="24%">
 
 ### 西文
-<img src="./images/preview/en.png" width="20%">
-<img src="./images/preview/el.png" width="20%">
-<img src="./images/preview/ru.png" width="20%">
-<img src="./images/preview/he.png" width="20%">
+<p>
+    <img src="./images/preview/en.png" width=24%>
+    <img src="./images/preview/el.png" width=24%>
+    <img src="./images/preview/ru.png" width=24%>
+    <img src="./images/preview/he.png" width=24%>
+</p>
 
 ## 許可證
 本項目采用 **SIL Open Font License 1.1**。
