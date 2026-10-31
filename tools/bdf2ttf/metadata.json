@@ -7,14 +7,14 @@
   },
   "styleName": {
     "en": "Regular",
-    "zh": "Regular",
-    "zh-tw": "Regular",
+    "zh": "常规",
+    "zh-tw": "常規",
     "ja": "Regular"
   },
   "fullName": {
     "en": "Erya Mincho Regular",
-    "zh": "尔雅明朝 Regular",
-    "zh-tw": "爾雅明朝 Regular",
+    "zh": "尔雅明朝 常规",
+    "zh-tw": "爾雅明朝 常規",
     "ja": "爾雅明朝 Regular"
   },
   "psName": "EryaMincho-Regular",
@@ -24,7 +24,8 @@
   "copyright": {
     "en": "Copyright © 2026 Koolhaas",
     "zh": "版权所有 © 2026 考哈",
-    "zh-tw": "版權所有 © 2026 考哈"
+    "zh-tw": "版權所有 © 2026 考哈",
+    "ja": "著作権 © 2026 Koolhaas"
   },
   "trademark": null,
   "designer": {

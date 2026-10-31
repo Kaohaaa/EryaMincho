@@ -6,6 +6,24 @@
             "size_overrides": [
                 {
                     "__ranges": [
+                        "Hangul Jamo"
+                    ],
+                    "from": "\u1100",
+                    "to": "\u11ff",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Hangul Compatibility Jamo"
+                    ],
+                    "from": "\u3130",
+                    "to": "\u318f",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
                         "CJK Symbols and Punctuation"
                     ],
                     "from": "\u3000",
@@ -46,6 +64,15 @@
                     ],
                     "from": "\uf900",
                     "to": "\ufaff",
+                    "left": 0,
+                    "right": 15
+                },
+                {
+                    "__ranges": [
+                        "Hangul Syllables"
+                    ],
+                    "from": "\uac00",
+                    "to": "\ud7af",
                     "left": 0,
                     "right": 15
                 },
